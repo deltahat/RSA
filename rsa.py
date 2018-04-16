@@ -35,7 +35,7 @@ def transalte(text):
     return radioAlphabet
 
 
-# Speake function
+# Talk function
 def say(text, voiceid, velocity):
     eng = pyttsx3.init()
     listVoices = eng.getProperty('voices')
