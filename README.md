@@ -8,12 +8,11 @@ the International Radiotelephony Spelling Alphabet.
 ## Code Samples
 
     string = input("Enter your text: ")
-#  
+    
 #### Translate text 
 
     traducction = transalte(string)
 
-#  
 #### Say text with parameters predefinites
     
     voice = 10, velocity = 40
