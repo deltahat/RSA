@@ -43,8 +43,3 @@ def say(text, voiceid, velocity):
     eng.setProperty('velocity', velocity)
     eng.say(text)
     eng.runAndWait()
-
-
-string = input("Enter your text: ")
-traducction = transalte(string)
-say(traducction, 10, 40)
