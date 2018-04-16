@@ -33,9 +33,9 @@ def transalte(text):
         text = list(text)
         radioAlphabet = radioAlphabet + ". " + alphabet[text[letter]]
     return radioAlphabet
+
+
 # Speake function
-
-
 def say(text, voiceid, velocity):
     eng = pyttsx3.init()
     listVoices = eng.getProperty('voices')
