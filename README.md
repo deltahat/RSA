@@ -4,10 +4,6 @@
 
 > This script has for funtionality translate one text to voice in
 the International Radiotelephony Spelling Alphabet.
-
-## Code Samples
-
-    string = input("Enter your text: ")
     
 #### Translate text 
 
@@ -27,8 +23,9 @@ the International Radiotelephony Spelling Alphabet.
 ### Instalation project
 
     git clone https://www.github.com/deltahat/RSA.git
-    
-### In your code
+
+## Code Samples
 ```python
-    import rsa
+import rsa
+string = input("Enter your text: ")
 ```
