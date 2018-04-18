@@ -24,8 +24,11 @@ the International Radiotelephony Spelling Alphabet.
 
     git clone https://www.github.com/deltahat/RSA.git
 
-## Code Samples
+## Code example
 ```python
-import rsa
 string = input("Enter your text: ")
+voiceid = 10
+velocity = 40
+traduction = translate(string)
+say(traduction, voiceid, velocity)
 ```
