@@ -18,7 +18,7 @@ __status__ = "Production"
 
 
 # Translate function
-def transalte(text):
+def translate(text):
     text = text.upper()
     alphabet = {
         " ": " ", "A": "Alpha", "B": "Beta", "C": "Charlie", "D": "Delta",
