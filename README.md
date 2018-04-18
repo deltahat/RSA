@@ -25,11 +25,10 @@ the International Radiotelephony Spelling Alphabet.
     sudo apt-get install --upgrade speak
 
 ### Instalation project
-    mkdir project
-    
-    cd project
 
     git clone https://www.github.com/deltahat/RSA.git
     
 ### In your code
+```python
     import rsa
+```
