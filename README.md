@@ -17,12 +17,14 @@ the International Radiotelephony Spelling Alphabet.
 ## Installation
 
 ### Dependencies in linux:
-
-    sudo apt-get install --upgrade speak
+```
+$ sudo apt-get install --upgrade speak
+```
 
 ### Instalation project
-
-    git clone https://www.github.com/deltahat/RSA.git
+```
+$ git clone https://www.github.com/deltahat/RSA.git
+```
 
 ## Code example
 ```python
