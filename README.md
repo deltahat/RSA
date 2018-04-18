@@ -6,14 +6,15 @@
 the International Radiotelephony Spelling Alphabet.
     
 #### Translate text 
-
-    traducction = transalte(string)
+```python
+traducction = transalte(string)
+```
 
 #### Say text with parameters predefinites
-    
-    voice = 10, velocity = 40
-    say(traducction, voice , velocity)
-
+```python
+voice = 10, velocity = 40
+say(traducction, voice , velocity)
+```
 ## Installation
 
 ### Dependencies in linux:
