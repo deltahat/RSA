@@ -26,6 +26,10 @@ the International Radiotelephony Spelling Alphabet.
 
 ## Code example
 ```python
+# -*- coding: utf-8 -*-
+
+import rsa
+
 string = input("Enter your text: ")
 voiceid = 10
 velocity = 40
