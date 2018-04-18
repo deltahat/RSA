@@ -31,9 +31,8 @@ the International Radiotelephony Spelling Alphabet.
 import rsa
 
 string = input("Enter your text: ")
-voiceid = 10
-velocity = 40
+voice = 10, velocity = 40
 traduction = translate(string)
-say(traduction, voiceid, velocity)
+say(traduction, voice, velocity)
 
 ```
